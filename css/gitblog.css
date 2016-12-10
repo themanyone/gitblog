@@ -132,28 +132,24 @@ pre {
 }
 .small {font-size:80%;}
 .abs {position:absolute;}
-div.bar {
-	width:100%;
-	padding-left:1%;
-	padding-right:1%;
-	margin-left:0;
-	margin-right:0;
-}
 .left{float:left; margin: 0 15px 5px 0;}
 .right{float:right; margin: 0 0 5px 15px; clear:both;}
 .rolldown {
+	display:inline-block;
+	position:relative;
+	z-index:99;
 	overflow:hidden;
     max-height: 24px;
-    overflow: hidden;
 	font-family:sans-serif;
 	font-size:15px;
 	font-weight:bold;
     transition-property: max-height;
     transition: all 1s ease-in-out;
 	padding: 0 5px;
+	width: 180px;
 }
 .rolldown:hover {
-    max-height: 500px;
+    max-height: 100%;
 }
 .rolldown:hover:before {
 	/* background-position:0 0; */
@@ -170,15 +166,23 @@ div.bar {
 	-o-transition:      all 0.5s ease-in-out;
 	transition:         all 0.5s ease-in-out;
 	content: '';
-	z-index:-1;
 	position:relative;
 	background-image: url('arrow_blue.png');
 	background-repeat: no-repeat;
 	width: 24px;
 	height: 24px;
-	float:left;
+	float: left;
 }
-
+.navbar {
+	z-index: 99;
+	overflow:visible;
+	max-height: 24px;
+}
+.menu {
+	margin-left:24px;
+	width: 120px;
+	display: block;
+}
 .shadow {
 	-webkit-box-shadow: 5px 5px 9px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    5px 5px 9px 0px rgba(50, 50, 50, 0.75);
@@ -245,15 +249,17 @@ a.imaged:hover {
 	background-color:#474747;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+	position: relative;
+	top: 1px;
+	max-width: 100px;
 }
 
 /* fixes for myButton generated class */
 .myButton {
-	padding:3px 5%;
-	overflow:hidden;
-	display:block;
+	padding: 3px 5%;
+	overflow: hidden;
+	z-index: 99;
+	vertical-align: top;
 }
 /* pop-out external link indicator */
 a:hover:not(.myButton)[href*="//"]:not(.socIcon) {

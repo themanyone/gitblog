@@ -1,6 +1,6 @@
 # GitBlog
 
-Collaborative web publishing using [nothing but Git](https://git-scm.com/download/win).
+Collaborative web publishing with [GitHub](https://github.com/) and [Git](https://git-scm.com/download/win).
 
 * Free and easy
 * Website stays up-to-date
@@ -24,11 +24,12 @@ GitBlog takes a specially-crafted URL with a=GitHub author, p=project name, and 
 </fieldset>
 </form>
 
-You may also use just the u=URL to load markdown from anywhere. Hit the back button if it doesn't work.<form name="gitblog" target="">
+You may also enter the URL of local or remote [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) files. <form name="gitblog" target="">
 <fieldset><legend>Load Markdown File</legend>
     <label class="field">URL: </label> <input name="u"  type="text"></input><input type="submit"></input>
 </fieldset>
 </form>
+Save or bookmark the resulting page link, and add it to your sitemap or navigation bar.
 
 ## Automatic Meta Tag Generation
 
