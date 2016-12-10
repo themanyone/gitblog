@@ -1,12 +1,14 @@
 # GitBlog
+<img style="float:right" alt="GitBlog" src="favicon/android-icon-192x192.png">
 
-Collaborative web publishing with [GitHub](https://github.com/) and [Git](https://git-scm.com/download/win).
+Free collaborative web publishing with [GitHub](https://github.com/) and [Git](https://git-scm.com/download/win).
 
-* Free and easy
-* Website stays up-to-date
-* Git tracks revision history
-* Avoids version conflicts
-* Avoids duplicate work
+Brought to you by [TheNerdShow.com](http://thenerdshow.com/)
+
+* Keep websites up to date
+* Track revision history with git
+* Avoid version conflicts
+* Avoid duplicate work
 * No database headaches
 * Better collaboration
 * Publish with `git push`
@@ -14,13 +16,13 @@ Collaborative web publishing with [GitHub](https://github.com/) and [Git](https:
 
 ## How It Works
 
-GitBlog is a simple js script that takes [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) from GitHub and displays it on your website using [marked.js](https://github.com/chjj/marked).
+GitBlog is a simple js script that takes [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) files from GitHub and displays them on a website using [marked.js](https://github.com/chjj/marked). Start a GitHub project containing markdown files and use GitBlog to display them as web pages.
 
-GitBlog takes a specially-crafted URL with a=GitHub author, p=project name, and f=file name containing markdown, or fill out this form. <form name="gitblog" target="">
+GitBlog takes a specially-crafted URL with a=GitHub author, p=project name, and f=file name containing markdown. Fill out this form and click submit for an example. Copy or bookmark the resulting page link, and add it to the sitemap or navigation bar.<form name="gitblog" target="">
 <fieldset><legend>GitHub Configuration</legend>
     <label class="field">author: </label> <input name="a"  type="text"></input>
     <label class="field">project:</label> <input name="p"  type="text"></input>
-    <label class="field">file: </label> <input name="f"  type="text"></input><input type="submit"></input>
+    <label class="field">(opt.) file: </label> <input name="f"  type="text"></input><input type="submit"></input>
 </fieldset>
 </form>
 
@@ -29,7 +31,6 @@ You may also enter the URL of local or remote [markdown](https://github.com/adam
     <label class="field">URL: </label> <input name="u"  type="text"></input><input type="submit"></input>
 </fieldset>
 </form>
-Save or bookmark the resulting page link, and add it to your sitemap or navigation bar.
 
 ## Automatic Meta Tag Generation
 
@@ -41,14 +42,16 @@ Save or bookmark the resulting page link, and add it to your sitemap or navigati
 
 1. Optionally update [marked.js](https://github.com/chjj/marked).
 2. See that the latest marked.min.js is in the js folder of this project.
-3. Copy the project to your web server.
+3. Edit this README.md or replace with custom markdown.
+4. Edit navbar.html with site links.
+3. Copy this project to a web server.
 
 ## Testing
 
 You may test this project
 
 * by running `python3 -m http.server&`
-* or by running `php -S addr:port&`
+* by running `php -S addr:port&`
 * or copying it to a local web server
 
 ## Credits

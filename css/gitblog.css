@@ -147,6 +147,7 @@ pre {
     transition: all 1s ease-in-out;
 	padding: 0 5px;
 	width: 180px;
+	vertical-align: top;
 }
 .rolldown:hover {
     max-height: 100%;
@@ -182,6 +183,7 @@ pre {
 	margin-left:24px;
 	width: 120px;
 	display: block;
+	padding: 5px;
 }
 .shadow {
 	-webkit-box-shadow: 5px 5px 9px 0px rgba(50, 50, 50, 0.75);
@@ -194,7 +196,6 @@ a.imaged {
 	background-size: 200% 100%;
     background-position: 0% 0;
 	border: 0;
-	box-shadow: none;
 }
 a.imaged:hover {
 	background-image: url('button_blue.png');
@@ -205,9 +206,6 @@ a.imaged:hover {
 /* http://www.bestcssbuttongenerator.com/ */
 
 .myButton {
-	-moz-box-shadow:inset 0px 1px 0px 0px #333333;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #333333;
-	box-shadow:inset 0px 1px 0px 0px #333333;
 
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7d7d7d), color-stop(1, #474747));
 	background:-moz-linear-gradient(top, #7d7d7d 5%, #474747 100%);
@@ -260,6 +258,9 @@ a.imaged:hover {
 	overflow: hidden;
 	z-index: 99;
 	vertical-align: top;
+	-webkit-box-shadow: 3px 3px 3px #777;
+	-moz-box-shadow: 3px 3px 3px #777;
+	  box-shadow: 3px 3px 3px #777;
 }
 /* pop-out external link indicator */
 a:hover:not(.myButton)[href*="//"]:not(.socIcon) {
