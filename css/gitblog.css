@@ -1,0 +1,262 @@
+.content {
+	position:relative;
+	margin-right:3px;
+	max-width:1000px;
+	min-width:450px;
+	padding:1%;overflow-x:auto;
+	margin-bottom:1em;
+	background-color: rgba(255,255,255,0.8);
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	-webkit-box-shadow: 3px 3px 5px 5px #404040;
+	box-shadow: 3px 3px 5px 5px #404040;
+}
+fieldset {
+	display: inline-block;
+	max-width: 100%;
+	background-color: #00C0FF;
+	background-color: rgba(34,80,136, 0.3);
+}
+legend {
+	font-size:1.2em;
+	color: #ff8000;
+}
+label.field {
+	text-align: right;
+	width: 100px;
+	float: left;
+	font-weight: bold;
+}
+input.textbox-300 {
+	width: 300px;
+	float: left;
+}
+body {
+	font-family: sans-serif;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+a,h1,h2,h3,h4,b {
+	text-decoration:none;
+	color: #ff8000;
+}
+img {border:0;}
+table, td, th
+{
+margin:auto;
+border-collapse:collapse;
+border:1px solid black;
+}
+th { background-color:#ccc }
+sup,sub {font-size: .6em}
+.inline {display:inline;width:140px;}
+span { display:inline-block;
+	color:#248;
+}
+code {
+	background-color: #ccc;
+	background-color: rgba(255,255,255,0.8);
+	display:inline-block;
+	max-width:100%;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+pre {
+	margin:0;
+	display:inline-block;
+	white-space: pre-wrap;                 /* CSS3 browsers  */
+    white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+    white-space: -pre-wrap;                /* Opera 4 thru 6 */
+    white-space: -o-pre-wrap;              /* Opera 7 and up */
+    word-wrap: break-word;                 /* IE 5.5+ and up */
+    font-family: fixed;
+	line-height:100%;
+}
+.rotate {
+	border:0px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition:    all 0.5s ease-in-out;
+	-ms-transition:     all 0.5s ease-in-out;
+	-o-transition:      all 0.5s ease-in-out;
+	transition:         all 0.5s ease-in-out;
+}
+.figure {
+	padding:.5em;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 5px 5px 9px 0px #777;
+	-moz-box-shadow:    5px 5px 9px 0px #777;
+	box-shadow:         5px 5px 9px 0px #777;
+	font-style:italic;
+	text-align:center;
+}
+.figure p{
+	font-size:10pt;
+	margin-top:0;
+	margin-bottom:0;
+}
+.polaroid {
+	position: relative;
+	width: 250px;
+	margin: auto;
+	border:0px;
+	margin-right:2.5em !important;
+}
+.polaroid img {
+	border: 10px solid #fff;
+	border-bottom: 45px solid #fff;
+	-webkit-box-shadow: 3px 3px 3px #777;
+	-moz-box-shadow: 3px 3px 3px #777;
+	  box-shadow: 3px 3px 3px #777;
+}
+.polaroid p {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 0px;
+	font-family: Cezanne;
+	font-size:15px;
+	font-weight:bold;
+	padding:0 5px;
+	text-decoration:none;
+	color: #33f;
+	z-index:33;
+	margin:0;
+}
+.small {font-size:80%;}
+.abs {position:absolute;}
+div.bar {
+	width:100%;
+	padding-left:1%;
+	padding-right:1%;
+	margin-left:0;
+	margin-right:0;
+}
+.left{float:left; margin: 0 15px 5px 0;}
+.right{float:right; margin: 0 0 5px 15px; clear:both;}
+.rolldown {
+	overflow:hidden;
+    max-height: 24px;
+    overflow: hidden;
+	font-family:sans-serif;
+	font-size:15px;
+	font-weight:bold;
+    transition-property: max-height;
+    transition: all 1s ease-in-out;
+	padding: 0 5px;
+}
+.rolldown:hover {
+    max-height: 500px;
+}
+.rolldown:hover:before {
+	/* background-position:0 0; */
+	-moz-transform:     rotate(90deg);
+	-webkit-transform:  rotate(90deg);
+	-o-transform:       rotate(90deg);
+	-ms-transform:      rotate(90deg);
+	transform:          rotate(90deg);
+}
+.rolldown:before {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition:    all 0.5s ease-in-out;
+	-ms-transition:     all 0.5s ease-in-out;
+	-o-transition:      all 0.5s ease-in-out;
+	transition:         all 0.5s ease-in-out;
+	content: '';
+	z-index:-1;
+	position:relative;
+	background-image: url('arrow_blue.png');
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	float:left;
+}
+
+.shadow {
+	-webkit-box-shadow: 5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+}
+
+a.imaged {
+	background-image: url('button_blue.png');
+	background-size: 200% 100%;
+    background-position: 0% 0;
+	border: 0;
+	box-shadow: none;
+}
+a.imaged:hover {
+	background-image: url('button_blue.png');
+	background-size: 200% 100%;
+	background-position: 100% 0;
+}
+
+/* http://www.bestcssbuttongenerator.com/ */
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #333333;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #333333;
+	box-shadow:inset 0px 1px 0px 0px #333333;
+
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7d7d7d), color-stop(1, #474747));
+	background:-moz-linear-gradient(top, #7d7d7d 5%, #474747 100%);
+	background:-webkit-linear-gradient(top, #7d7d7d 5%, #474747 100%);
+	background:-o-linear-gradient(top, #7d7d7d 5%, #474747 100%);
+	background:-ms-linear-gradient(top, #7d7d7d 5%, #474747 100%);
+	background:linear-gradient(to bottom, #7d7d7d 5%, #474747 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d7d7d', endColorstr='#474747',GradientType=0);
+
+	background-color:#7d7d7d;
+
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+
+	border:1px solid #000000;
+
+	display:inline-block;
+	color:#ebebeb;
+	font-family:sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 5px;
+	text-decoration:none;
+
+	text-shadow:1px 1px 0px #000000;
+
+}
+.myButton:hover {
+
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #474747), color-stop(1, #7d7d7d));
+	background:-moz-linear-gradient(top, #474747 5%, #7d7d7d 100%);
+	background:-webkit-linear-gradient(top, #474747 5%, #7d7d7d 100%);
+	background:-o-linear-gradient(top, #474747 5%, #7d7d7d 100%);
+	background:-ms-linear-gradient(top, #474747 5%, #7d7d7d 100%);
+	background:linear-gradient(to bottom, #474747 5%, #7d7d7d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#474747', endColorstr='#7d7d7d',GradientType=0);
+
+	background-color:#474747;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* fixes for myButton generated class */
+.myButton {
+	padding:3px 5%;
+	overflow:hidden;
+	display:block;
+}
+/* pop-out external link indicator */
+a:hover:not(.myButton)[href*="//"]:not(.socIcon) {
+    background: url('../images/externallink.png') center right no-repeat;
+    padding-right: 13px;
+}
