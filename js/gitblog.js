@@ -21,7 +21,7 @@ function decodeURL(){
     } if (location.search) return q2obj(location.search.slice(1));
 }
 function getKeywords(e){
-	obj = {};out=[];ret=[];
+	var obj = {};var out=[], ret=[];
     /* count each keyword */
     forAll(e)(function(e){
         if (e.length > 3) obj[e] = obj[e]?obj[e]+=1:1; });
@@ -32,12 +32,12 @@ function getKeywords(e){
 	return ret.join(" ");
 }
 function displayIt(e){
-    ele = jq(".content")
+    var ele = jq(".content")
     if (ele)
         ele.innerHTML += marked(e.responseText);
     if (h1 = jq("h1"))
         document.title = jq("meta[property=\"og:title\"]").content = h1.innerText;
-    w = ele.innerText.replace(/\W+/g, " ").trim().split(" ");
+    var w = ele.innerText.replace(/\W+/g, " ").trim().split(" ");
     jq("meta[name=\"keywords\"]").content = getKeywords(w);
     jq("meta[name=\"description\"]").content = 
     jq("meta[property=\"og:description\"]").content = jq("p").innerText;

@@ -52,13 +52,9 @@ margin:auto;
 border-collapse:collapse;
 border:1px solid black;
 }
-th { background-color:#ccc }
+th { background-color:lightblue; }
 sup,sub {font-size: .6em}
-.inline {display:inline;width:140px;}
-span { display:inline-block;
-	color:#248;
-}
-code {
+code pre tt {
 	background-color: #ccc;
 	background-color: rgba(255,255,255,0.8);
 	display:inline-block;
@@ -67,69 +63,7 @@ code {
 	-o-text-overflow: ellipsis;
 	text-overflow: ellipsis;
 }
-pre {
-	margin:0;
-	display:inline-block;
-	white-space: pre-wrap;                 /* CSS3 browsers  */
-    white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
-    white-space: -pre-wrap;                /* Opera 4 thru 6 */
-    white-space: -o-pre-wrap;              /* Opera 7 and up */
-    word-wrap: break-word;                 /* IE 5.5+ and up */
-    font-family: fixed;
-	line-height:100%;
-}
-.rotate {
-	border:0px;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition:    all 0.5s ease-in-out;
-	-ms-transition:     all 0.5s ease-in-out;
-	-o-transition:      all 0.5s ease-in-out;
-	transition:         all 0.5s ease-in-out;
-}
-.figure {
-	padding:.5em;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	border-radius: 6px;
-	-webkit-box-shadow: 5px 5px 9px 0px #777;
-	-moz-box-shadow:    5px 5px 9px 0px #777;
-	box-shadow:         5px 5px 9px 0px #777;
-	font-style:italic;
-	text-align:center;
-}
-.figure p{
-	font-size:10pt;
-	margin-top:0;
-	margin-bottom:0;
-}
-.polaroid {
-	position: relative;
-	width: 250px;
-	margin: auto;
-	border:0px;
-	margin-right:2.5em !important;
-}
-.polaroid img {
-	border: 10px solid #fff;
-	border-bottom: 45px solid #fff;
-	-webkit-box-shadow: 3px 3px 3px #777;
-	-moz-box-shadow: 3px 3px 3px #777;
-	  box-shadow: 3px 3px 3px #777;
-}
-.polaroid p {
-	position: absolute;
-	text-align: center;
-	width: 100%;
-	bottom: 0px;
-	font-family: Cezanne;
-	font-size:15px;
-	font-weight:bold;
-	padding:0 5px;
-	text-decoration:none;
-	color: #33f;
-	z-index:33;
-	margin:0;
-}
+
 .small {font-size:80%;}
 .abs {position:absolute;}
 .left{float:left; margin: 0 15px 5px 0;}

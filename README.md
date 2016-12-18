@@ -1,12 +1,14 @@
 # [GitBlog](https://github.com/themanyone/gitblog)
 <img style="float:right" alt="GitBlog" src="favicon/android-icon-192x192.png">
 
-Use [GitHub](https://github.com/themanyone/gitblog) as a blogging platform. Free collaborative web publishing with [Git](https://git-scm.com/download/win). 
+Use [GitHub](https://github.com/themanyone/gitblog) as a blogging platform. Load remote content from GitHub and display it as part of a site. Free collaborative web publishing with [Git](https://git-scm.com/download/win).
 
 Brought to you by [TheNerdShow.com](http://thenerdshow.com/)
 
+This project has become part of [FirstPage](http://thenerdshow.com/firstpage).
+
 * Keep websites up to date
-* Avoid duplicate work
+* Reduce duplicate work
 * Better collaboration
 * Track revision history
 * Work offline, and locally
@@ -46,7 +48,7 @@ You may also enter the URL of local or remote [markdown](https://help.github.com
 1. Optionally update [marked.js](https://github.com/chjj/marked).
 2. See that the latest marked.min.js is in the js folder of this project.
 3. Edit this README.md or replace with custom markdown.
-4. Edit navbar.html with site links.
+4. Edit navbar.html or use [FirstPage](http://thenerdshow.com/firstpage) to generate the menu.
 3. Copy this project to a web server.
 
 ## Testing
