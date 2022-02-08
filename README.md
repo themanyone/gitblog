@@ -45,8 +45,8 @@ You may also enter the URL of local or remote [markdown](https://help.github.com
 ## Installation
 
 1. Get [GitBlog from GitHub](https://github.com/themanyone/gitblog)
-1. Optionally update [marked.js](https://github.com/chjj/marked).
-2. See that the latest marked.min.js is in the js folder of this project.
+1. Update [marked.js](https://github.com/chjj/marked).
+2. See that the latest marked.js is in the js folder of this project.
 3. Edit this README.md or replace with custom markdown.
 4. Edit navbar.html or use [FirstPage](http://thenerdshow.com/firstpage) to generate the menu.
 3. Copy this project to a web server.
